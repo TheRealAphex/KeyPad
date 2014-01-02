@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03507FB418751D1400CCA2BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB318751D1400CCA2BE /* Foundation.framework */; };
+		03507FB618751D1400CCA2BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB518751D1400CCA2BE /* CoreGraphics.framework */; };
+		03507FB818751D1400CCA2BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB718751D1400CCA2BE /* UIKit.framework */; };
+		03507FBE18751D1400CCA2BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03507FBC18751D1400CCA2BE /* InfoPlist.strings */; };
+		03507FC018751D1400CCA2BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03507FBF18751D1400CCA2BE /* main.m */; };
+		03507FC418751D1400CCA2BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03507FC318751D1400CCA2BE /* AppDelegate.m */; };
+		03507FC718751D1400CCA2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03507FC518751D1400CCA2BE /* Main.storyboard */; };
+		03507FCA18751D1400CCA2BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03507FC918751D1400CCA2BE /* ViewController.m */; };
+		03507FCC18751D1400CCA2BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03507FCB18751D1400CCA2BE /* Images.xcassets */; };
+		03507FD318751D1400CCA2BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FD218751D1400CCA2BE /* XCTest.framework */; };
+		03507FD418751D1400CCA2BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB318751D1400CCA2BE /* Foundation.framework */; };
+		03507FD518751D1400CCA2BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB718751D1400CCA2BE /* UIKit.framework */; };
+		03507FDD18751D1400CCA2BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03507FDB18751D1400CCA2BE /* InfoPlist.strings */; };
+		03507FDF18751D1400CCA2BE /* KeyPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03507FDE18751D1400CCA2BE /* KeyPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03507FD618751D1400CCA2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03507FA818751D1400CCA2BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03507FAF18751D1400CCA2BE;
+			remoteInfo = KeyPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03507FB018751D1400CCA2BE /* KeyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03507FB318751D1400CCA2BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03507FB518751D1400CCA2BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03507FB718751D1400CCA2BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03507FBB18751D1400CCA2BE /* KeyPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyPad-Info.plist"; sourceTree = "<group>"; };
+		03507FBD18751D1400CCA2BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03507FBF18751D1400CCA2BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03507FC118751D1400CCA2BE /* KeyPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyPad-Prefix.pch"; sourceTree = "<group>"; };
+		03507FC218751D1400CCA2BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03507FC318751D1400CCA2BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03507FC618751D1400CCA2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03507FC818751D1400CCA2BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03507FC918751D1400CCA2BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03507FCB18751D1400CCA2BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03507FD118751D1400CCA2BE /* KeyPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03507FD218751D1400CCA2BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03507FDA18751D1400CCA2BE /* KeyPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyPadTests-Info.plist"; sourceTree = "<group>"; };
+		03507FDC18751D1400CCA2BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03507FDE18751D1400CCA2BE /* KeyPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03507FAD18751D1400CCA2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FB618751D1400CCA2BE /* CoreGraphics.framework in Frameworks */,
+				03507FB818751D1400CCA2BE /* UIKit.framework in Frameworks */,
+				03507FB418751D1400CCA2BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03507FCE18751D1400CCA2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FD318751D1400CCA2BE /* XCTest.framework in Frameworks */,
+				03507FD518751D1400CCA2BE /* UIKit.framework in Frameworks */,
+				03507FD418751D1400CCA2BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03507FA718751D1400CCA2BE = {
+			isa = PBXGroup;
+			children = (
+				03507FB918751D1400CCA2BE /* KeyPad */,
+				03507FD818751D1400CCA2BE /* KeyPadTests */,
+				03507FB218751D1400CCA2BE /* Frameworks */,
+				03507FB118751D1400CCA2BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03507FB118751D1400CCA2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03507FB018751D1400CCA2BE /* KeyPad.app */,
+				03507FD118751D1400CCA2BE /* KeyPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03507FB218751D1400CCA2BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03507FB318751D1400CCA2BE /* Foundation.framework */,
+				03507FB518751D1400CCA2BE /* CoreGraphics.framework */,
+				03507FB718751D1400CCA2BE /* UIKit.framework */,
+				03507FD218751D1400CCA2BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03507FB918751D1400CCA2BE /* KeyPad */ = {
+			isa = PBXGroup;
+			children = (
+				03507FC218751D1400CCA2BE /* AppDelegate.h */,
+				03507FC318751D1400CCA2BE /* AppDelegate.m */,
+				03507FC518751D1400CCA2BE /* Main.storyboard */,
+				03507FC818751D1400CCA2BE /* ViewController.h */,
+				03507FC918751D1400CCA2BE /* ViewController.m */,
+				03507FCB18751D1400CCA2BE /* Images.xcassets */,
+				03507FBA18751D1400CCA2BE /* Supporting Files */,
+			);
+			path = KeyPad;
+			sourceTree = "<group>";
+		};
+		03507FBA18751D1400CCA2BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03507FBB18751D1400CCA2BE /* KeyPad-Info.plist */,
+				03507FBC18751D1400CCA2BE /* InfoPlist.strings */,
+				03507FBF18751D1400CCA2BE /* main.m */,
+				03507FC118751D1400CCA2BE /* KeyPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03507FD818751D1400CCA2BE /* KeyPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				03507FDE18751D1400CCA2BE /* KeyPadTests.m */,
+				03507FD918751D1400CCA2BE /* Supporting Files */,
+			);
+			path = KeyPadTests;
+			sourceTree = "<group>";
+		};
+		03507FD918751D1400CCA2BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03507FDA18751D1400CCA2BE /* KeyPadTests-Info.plist */,
+				03507FDB18751D1400CCA2BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03507FAF18751D1400CCA2BE /* KeyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03507FE218751D1400CCA2BE /* Build configuration list for PBXNativeTarget "KeyPad" */;
+			buildPhases = (
+				03507FAC18751D1400CCA2BE /* Sources */,
+				03507FAD18751D1400CCA2BE /* Frameworks */,
+				03507FAE18751D1400CCA2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyPad;
+			productName = KeyPad;
+			productReference = 03507FB018751D1400CCA2BE /* KeyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03507FD018751D1400CCA2BE /* KeyPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03507FE518751D1400CCA2BE /* Build configuration list for PBXNativeTarget "KeyPadTests" */;
+			buildPhases = (
+				03507FCD18751D1400CCA2BE /* Sources */,
+				03507FCE18751D1400CCA2BE /* Frameworks */,
+				03507FCF18751D1400CCA2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03507FD718751D1400CCA2BE /* PBXTargetDependency */,
+			);
+			name = KeyPadTests;
+			productName = KeyPadTests;
+			productReference = 03507FD118751D1400CCA2BE /* KeyPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03507FA818751D1400CCA2BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adil Rahman";
+				TargetAttributes = {
+					03507FD018751D1400CCA2BE = {
+						TestTargetID = 03507FAF18751D1400CCA2BE;
+					};
+				};
+			};
+			buildConfigurationList = 03507FAB18751D1400CCA2BE /* Build configuration list for PBXProject "KeyPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03507FA718751D1400CCA2BE;
+			productRefGroup = 03507FB118751D1400CCA2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03507FAF18751D1400CCA2BE /* KeyPad */,
+				03507FD018751D1400CCA2BE /* KeyPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03507FAE18751D1400CCA2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FCC18751D1400CCA2BE /* Images.xcassets in Resources */,
+				03507FBE18751D1400CCA2BE /* InfoPlist.strings in Resources */,
+				03507FC718751D1400CCA2BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03507FCF18751D1400CCA2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FDD18751D1400CCA2BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03507FAC18751D1400CCA2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FCA18751D1400CCA2BE /* ViewController.m in Sources */,
+				03507FC418751D1400CCA2BE /* AppDelegate.m in Sources */,
+				03507FC018751D1400CCA2BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03507FCD18751D1400CCA2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03507FDF18751D1400CCA2BE /* KeyPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03507FD718751D1400CCA2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03507FAF18751D1400CCA2BE /* KeyPad */;
+			targetProxy = 03507FD618751D1400CCA2BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03507FBC18751D1400CCA2BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03507FBD18751D1400CCA2BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03507FC518751D1400CCA2BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03507FC618751D1400CCA2BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03507FDB18751D1400CCA2BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03507FDC18751D1400CCA2BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03507FE018751D1400CCA2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03507FE118751D1400CCA2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03507FE318751D1400CCA2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyPad/KeyPad-Prefix.pch";
+				INFOPLIST_FILE = "KeyPad/KeyPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03507FE418751D1400CCA2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyPad/KeyPad-Prefix.pch";
+				INFOPLIST_FILE = "KeyPad/KeyPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03507FE618751D1400CCA2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyPad.app/KeyPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyPad/KeyPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KeyPadTests/KeyPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03507FE718751D1400CCA2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyPad.app/KeyPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyPad/KeyPad-Prefix.pch";
+				INFOPLIST_FILE = "KeyPadTests/KeyPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03507FAB18751D1400CCA2BE /* Build configuration list for PBXProject "KeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03507FE018751D1400CCA2BE /* Debug */,
+				03507FE118751D1400CCA2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03507FE218751D1400CCA2BE /* Build configuration list for PBXNativeTarget "KeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03507FE318751D1400CCA2BE /* Debug */,
+				03507FE418751D1400CCA2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03507FE518751D1400CCA2BE /* Build configuration list for PBXNativeTarget "KeyPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03507FE618751D1400CCA2BE /* Debug */,
+				03507FE718751D1400CCA2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03507FA818751D1400CCA2BE /* Project object */;
+}
