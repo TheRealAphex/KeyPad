@@ -21,6 +21,8 @@
 		03507FD518751D1400CCA2BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03507FB718751D1400CCA2BE /* UIKit.framework */; };
 		03507FDD18751D1400CCA2BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03507FDB18751D1400CCA2BE /* InfoPlist.strings */; };
 		03507FDF18751D1400CCA2BE /* KeyPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03507FDE18751D1400CCA2BE /* KeyPadTests.m */; };
+		03507FEB1875286C00CCA2BE /* Arrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03507FEA1875286C00CCA2BE /* Arrow.jpg */; };
+		03507FED1875290700CCA2BE /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 03507FEC1875290700CCA2BE /* arrow-left.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		03507FDA18751D1400CCA2BE /* KeyPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyPadTests-Info.plist"; sourceTree = "<group>"; };
 		03507FDC18751D1400CCA2BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03507FDE18751D1400CCA2BE /* KeyPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyPadTests.m; sourceTree = "<group>"; };
+		03507FEA1875286C00CCA2BE /* Arrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Arrow.jpg; path = ../../Pictures/Arrow.jpg; sourceTree = "<group>"; };
+		03507FEC1875290700CCA2BE /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-left.png"; path = "../../Pictures/arrow-left.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				03507FC518751D1400CCA2BE /* Main.storyboard */,
 				03507FC818751D1400CCA2BE /* ViewController.h */,
 				03507FC918751D1400CCA2BE /* ViewController.m */,
+				03507FEA1875286C00CCA2BE /* Arrow.jpg */,
+				03507FEC1875290700CCA2BE /* arrow-left.png */,
 				03507FCB18751D1400CCA2BE /* Images.xcassets */,
 				03507FBA18751D1400CCA2BE /* Supporting Files */,
 			);
@@ -231,6 +237,8 @@
 				03507FCC18751D1400CCA2BE /* Images.xcassets in Resources */,
 				03507FBE18751D1400CCA2BE /* InfoPlist.strings in Resources */,
 				03507FC718751D1400CCA2BE /* Main.storyboard in Resources */,
+				03507FED1875290700CCA2BE /* arrow-left.png in Resources */,
+				03507FEB1875286C00CCA2BE /* Arrow.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
